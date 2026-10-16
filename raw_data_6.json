@@ -1,0 +1,682 @@
+{
+  "data": {
+    "searchAdsRandomPromoted": {
+      "__typename": "FoundPromotedAds",
+      "items": [
+        {
+          "id": 68398865,
+          "title": "Ochota,  unikatowe mieszkanie, 92,71 m",
+          "slug": "ochota-unikatowe-mieszkanie-92-71-m-ID4CZFw",
+          "estate": "FLAT",
+          "developmentId": 0,
+          "developmentTitle": "",
+          "developmentUrl": "",
+          "transaction": "SELL",
+          "location": {
+            "mapDetails": {
+              "radius": 0,
+              "__typename": "MapDetails",
+              "zoom": 12
+            },
+            "address": {
+              "street": {
+                "name": "Grójecka",
+                "number": "",
+                "__typename": "Street"
+              },
+              "city": {
+                "name": "Warszawa",
+                "__typename": "City"
+              },
+              "province": {
+                "name": "mazowieckie",
+                "__typename": "Province"
+              },
+              "__typename": "Address"
+            },
+            "reverseGeocoding": {
+              "locations": [
+                {
+                  "id": "mazowieckie",
+                  "name": "mazowieckie",
+                  "locationLevel": "voivodeship",
+                  "fullName": "mazowieckie",
+                  "__typename": "BasicLocationObject"
+                },
+                {
+                  "id": "mazowieckie/warszawa/warszawa/warszawa",
+                  "name": "Warszawa",
+                  "locationLevel": "city_or_village",
+                  "fullName": "Warszawa, mazowieckie",
+                  "__typename": "BasicLocationObject"
+                },
+                {
+                  "id": "mazowieckie/warszawa/warszawa/warszawa/ochota",
+                  "name": "Ochota",
+                  "locationLevel": "district",
+                  "fullName": "Ochota, Warszawa, mazowieckie",
+                  "__typename": "BasicLocationObject"
+                },
+                {
+                  "id": "mazowieckie/warszawa/warszawa/warszawa/ochota/stara-ochota",
+                  "name": "Stara Ochota",
+                  "locationLevel": "residential",
+                  "fullName": "Stara Ochota, Ochota, Warszawa, mazowieckie",
+                  "__typename": "BasicLocationObject"
+                }
+              ],
+              "__typename": "ReverseGeocoding"
+            },
+            "__typename": "LocationDetails",
+            "coordinates": {
+              "latitude": 52.2174171,
+              "longitude": 20.9833918,
+              "__typename": "Coordinates"
+            }
+          },
+          "images": [
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im1paTB0aHAxM3l3dTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.A1CfXGVajdH5iy9UjVNbb1H7w8Bc_9Pv2hN95nadXEU/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im1paTB0aHAxM3l3dTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.A1CfXGVajdH5iy9UjVNbb1H7w8Bc_9Pv2hN95nadXEU/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im5vdGdwejVraWJrYTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.gkGAHy49YnwviOTRlLF9s-PDbNVcbCbr0Mw6nXIlOLs/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im5vdGdwejVraWJrYTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.gkGAHy49YnwviOTRlLF9s-PDbNVcbCbr0Mw6nXIlOLs/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im55NTY5bGp3YmE0dDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.xm-ItZvy0QlvOBu7LVmspdXkRfaMK8YZYB_7AdNU1J0/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im55NTY5bGp3YmE0dDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.xm-ItZvy0QlvOBu7LVmspdXkRfaMK8YZYB_7AdNU1J0/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjV3bnIwczJxbnBjai1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.iZTmKoST2Eldp15m-jqeuucDlkVchRcGmpa20vAyh8I/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjV3bnIwczJxbnBjai1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.iZTmKoST2Eldp15m-jqeuucDlkVchRcGmpa20vAyh8I/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InU2dGhvZmUxZ3dpcC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.jFerkLEt_jQW9km_f8d0VA7DDbBkyGTflFwkUUBzN7c/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InU2dGhvZmUxZ3dpcC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.jFerkLEt_jQW9km_f8d0VA7DDbBkyGTflFwkUUBzN7c/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijd1MnhpcW96Ymk0OTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.TA2JQfdIdp6-AkXIos3rXrY_wmyvTeuuDrvz-y91dOk/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijd1MnhpcW96Ymk0OTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.TA2JQfdIdp6-AkXIos3rXrY_wmyvTeuuDrvz-y91dOk/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InY2aHVsazZzcTE1My1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.AyjhKn48w77qmQ33HVyNXIQe1ulO2iYrPosdaxgEzEY/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InY2aHVsazZzcTE1My1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.AyjhKn48w77qmQ33HVyNXIQe1ulO2iYrPosdaxgEzEY/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImQ4N2UxM3M0YXk2bTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.u9_q_YKVo8y8SCoF1-ibhUQK7W0-f8P_jQOZEddFlic/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImQ4N2UxM3M0YXk2bTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.u9_q_YKVo8y8SCoF1-ibhUQK7W0-f8P_jQOZEddFlic/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inlla2kxdTM1c29yYTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.qe3u8DFbc9SGYcTLDuH4jQJQ27WInu9KCn3DlcrS_cE/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inlla2kxdTM1c29yYTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.qe3u8DFbc9SGYcTLDuH4jQJQ27WInu9KCn3DlcrS_cE/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inh0dG9vc3NzY213bTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.AGe2HwoOA-UH8gN4XZjEKzmqK07SkFMvZviGm22BQd0/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inh0dG9vc3NzY213bTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.AGe2HwoOA-UH8gN4XZjEKzmqK07SkFMvZviGm22BQd0/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InZ5eHJrbGJybWQyNDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.w7Opn0esEDFVhxVWivPg_3byqOj5g3xMBl8lfEasITQ/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InZ5eHJrbGJybWQyNDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.w7Opn0esEDFVhxVWivPg_3byqOj5g3xMBl8lfEasITQ/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InNneWNoeWd4enRyMi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.k5BolDR8qTvKj5XkAgEQLqNcVDrkwg3XeZT-zZGrPf8/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InNneWNoeWd4enRyMi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.k5BolDR8qTvKj5XkAgEQLqNcVDrkwg3XeZT-zZGrPf8/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjYxM2c0angzZXJ4Yi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.P3dKPrCZgWuw084yCTiKAsJNpyOK-UJ1CsewDz1mU7M/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjYxM2c0angzZXJ4Yi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.P3dKPrCZgWuw084yCTiKAsJNpyOK-UJ1CsewDz1mU7M/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjBnanZ0cmR4NmdwbjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.vLjJfn83jzlnWoeL19EkxxBpRjhzotcZvciRWFx_zXc/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjBnanZ0cmR4NmdwbjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.vLjJfn83jzlnWoeL19EkxxBpRjhzotcZvciRWFx_zXc/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImczbzB1cGJ4ZW95cTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Gp-rQg6zWLysqx7tXY7YVD87pxqt5sr5pkce8wCEjQE/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImczbzB1cGJ4ZW95cTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Gp-rQg6zWLysqx7tXY7YVD87pxqt5sr5pkce8wCEjQE/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImNrMDJ5MG1kY3RoNC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.3Ezz9uOV_-kj5v-9KMlZkSjbn6ZFeh_wWh07RSH7q-0/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImNrMDJ5MG1kY3RoNC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.3Ezz9uOV_-kj5v-9KMlZkSjbn6ZFeh_wWh07RSH7q-0/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImRicGg3cHp6MXZ0NTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.a253WDGxBWzxKoFdbazO9blptjNTYIS8NiGnuzXFOd4/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImRicGg3cHp6MXZ0NTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.a253WDGxBWzxKoFdbazO9blptjNTYIS8NiGnuzXFOd4/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im43eGVycjBjeGVtNDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Ix26lZuQnjcaymJZNtF85CM0Q0v4w2aCt-RFz9lgolc/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im43eGVycjBjeGVtNDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Ix26lZuQnjcaymJZNtF85CM0Q0v4w2aCt-RFz9lgolc/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InJ5MGduZDUzMnJ3dS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.gWHuTvk9fZnxDWyiroNvNj6KuU48A5takmo_WTJ1-0A/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InJ5MGduZDUzMnJ3dS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.gWHuTvk9fZnxDWyiroNvNj6KuU48A5takmo_WTJ1-0A/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImpzMnMyY3V4MGJzNzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.ZfIQGW1WDOJR9aAiARRTNXTDnsKKKAK5QQmRYGr-GIw/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImpzMnMyY3V4MGJzNzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.ZfIQGW1WDOJR9aAiARRTNXTDnsKKKAK5QQmRYGr-GIw/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            }
+          ],
+          "totalPossibleImages": 20,
+          "isExclusiveOffer": false,
+          "isPrivateOwner": false,
+          "isPromoted": true,
+          "extendedAdvertiserType": null,
+          "source": "urn:partner:esticrm",
+          "agency": {
+            "id": 3323864,
+            "name": "LEX NIERUCHOMOŚCI MARTA KOSMOWSKA",
+            "slug": "lex-nieruchomosci-marta-kosmowska-ID3323864",
+            "imageUrl": null,
+            "type": "AGENCY",
+            "brandingVisible": true,
+            "highlightedAds": false,
+            "enhancedBrandingFeatures": [
+              "ENHANCED_BRANDING_SELLER_TYPE",
+              "ENHANCED_BRANDING_LOGO_DISPLAY",
+              "ENHANCED_BRANDING_COMPANY_NAME"
+            ],
+            "__typename": "AgencyListingDetails"
+          },
+          "openDays": "",
+          "totalPrice": {
+            "value": 2000000.0,
+            "currency": "PLN",
+            "__typename": "Money"
+          },
+          "rentPrice": {
+            "value": 0,
+            "currency": "PLN",
+            "__typename": "Money"
+          },
+          "priceFromPerSquareMeter": null,
+          "pricePerSquareMeter": {
+            "value": 21572.65,
+            "currency": "PLN",
+            "__typename": "Money"
+          },
+          "areaInSquareMeters": 92.71,
+          "terrainAreaInSquareMeters": null,
+          "roomsNumber": "THREE",
+          "hidePrice": false,
+          "floorNumber": "SECOND",
+          "investmentState": null,
+          "investmentUnitsAreaInSquareMeters": null,
+          "peoplePerRoom": null,
+          "dateCreated": "2026-10-16 19:49:04",
+          "createdAtFirst": "2026-09-09T10:51:11Z",
+          "investmentUnitsNumber": null,
+          "investmentUnitsRoomsNumber": null,
+          "investmentUnitsFloorsRange": null,
+          "investmentEstimatedDelivery": null,
+          "pushedUpAt": "2026-10-16T19:49:04+02:00",
+          "specialOffer": null,
+          "shortDescription": "Wyjątkowe mieszkanie w sercu Starej Ochoty | 92,71 m² | Balkon | Przedwojenna kamienicaLEX NIERUCHOMOŚCI MARTA KOSMOWSKA+48 601 264 167Na sprzedaż wyjątkowe mieszkanie o powierzchni 92,71 m², położone...",
+          "organisationAssignedMember": null,
+          "advertOwner": {
+            "name": "Administrator Konta",
+            "imageUrl": "https://statics.otodom.pl/static/otodompl/naspersclassifieds-regional/verticalsre-atlas-web-otodompl/static/img/user_placeholder.png",
+            "contacts": [],
+            "__typename": "LegacyAdvertOwner"
+          },
+          "tags": [
+            {
+              "value": "SEPARATE_KITCHEN",
+              "weight": 50,
+              "__typename": "AdvertListItemTag"
+            },
+            {
+              "value": "BALCONY",
+              "weight": 35,
+              "__typename": "AdvertListItemTag"
+            },
+            {
+              "value": "BASEMENT",
+              "weight": 25,
+              "__typename": "AdvertListItemTag"
+            },
+            {
+              "value": "SECURE_BUILDING",
+              "weight": 10,
+              "__typename": "AdvertListItemTag"
+            }
+          ],
+          "__typename": "AdvertListItem"
+        },
+        {
+          "id": 68494375,
+          "title": "2 pok, 44m2, kamienica, Wilcza",
+          "slug": "2-pok-44m2-kamienica-wilcza-ID4DowZ",
+          "estate": "FLAT",
+          "developmentId": 0,
+          "developmentTitle": "",
+          "developmentUrl": "",
+          "transaction": "SELL",
+          "location": {
+            "mapDetails": {
+              "radius": 0,
+              "__typename": "MapDetails",
+              "zoom": 15
+            },
+            "address": {
+              "street": {
+                "name": "Wilcza",
+                "number": "",
+                "__typename": "Street"
+              },
+              "city": {
+                "name": "Warszawa",
+                "__typename": "City"
+              },
+              "province": {
+                "name": "mazowieckie",
+                "__typename": "Province"
+              },
+              "__typename": "Address"
+            },
+            "reverseGeocoding": {
+              "locations": [
+                {
+                  "id": "mazowieckie",
+                  "name": "mazowieckie",
+                  "locationLevel": "voivodeship",
+                  "fullName": "mazowieckie",
+                  "__typename": "BasicLocationObject"
+                },
+                {
+                  "id": "mazowieckie/warszawa/warszawa/warszawa",
+                  "name": "Warszawa",
+                  "locationLevel": "city_or_village",
+                  "fullName": "Warszawa, mazowieckie",
+                  "__typename": "BasicLocationObject"
+                },
+                {
+                  "id": "mazowieckie/warszawa/warszawa/warszawa/srodmiescie",
+                  "name": "Śródmieście",
+                  "locationLevel": "district",
+                  "fullName": "Śródmieście, Warszawa, mazowieckie",
+                  "__typename": "BasicLocationObject"
+                },
+                {
+                  "id": "mazowieckie/warszawa/warszawa/warszawa/srodmiescie/srodmiescie-poludniowe",
+                  "name": "Śródmieście Południowe",
+                  "locationLevel": "residential",
+                  "fullName": "Śródmieście Południowe, Śródmieście, Warszawa, mazowieckie",
+                  "__typename": "BasicLocationObject"
+                }
+              ],
+              "__typename": "ReverseGeocoding"
+            },
+            "__typename": "LocationDetails",
+            "coordinates": {
+              "latitude": 52.2259504,
+              "longitude": 21.0214507,
+              "__typename": "Coordinates"
+            }
+          },
+          "images": [
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjhhN3lreDhuN2ExZDEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.r2P_KqHoW-jHqWqIdRo94swlitDBDPThmbKFrHA5A1U/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjhhN3lreDhuN2ExZDEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.r2P_KqHoW-jHqWqIdRo94swlitDBDPThmbKFrHA5A1U/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImgxNzlrZWx0Z2R0eTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.IUzzVG3-ZGX6wAlkSxhR5wk2bx06OIne17YvICeP0EI/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImgxNzlrZWx0Z2R0eTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.IUzzVG3-ZGX6wAlkSxhR5wk2bx06OIne17YvICeP0EI/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjVwNGJidGxwcGxoNTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.NKGd31foG8BMyZvJXIZma1I73wfeqwE7uBZsGhPLrjY/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjVwNGJidGxwcGxoNTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.NKGd31foG8BMyZvJXIZma1I73wfeqwE7uBZsGhPLrjY/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjdhZTB1MGl3ZmNuOTMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.rpfk54XeD7fw00yE7j01TRwTgDmbcEN-dhIi-88rpXo/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjdhZTB1MGl3ZmNuOTMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.rpfk54XeD7fw00yE7j01TRwTgDmbcEN-dhIi-88rpXo/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Img4OW5rZWRmZjF4ODItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.WPRLSB7jtsx5VQesuQSnYWigzoksJpYrWagiQitX2FY/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Img4OW5rZWRmZjF4ODItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.WPRLSB7jtsx5VQesuQSnYWigzoksJpYrWagiQitX2FY/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjRkNTY1NnY1cmt5bjEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Ul-tdgDvue4kuptVsRLq9Fcn2loFn8utiM54LAlb53U/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjRkNTY1NnY1cmt5bjEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Ul-tdgDvue4kuptVsRLq9Fcn2loFn8utiM54LAlb53U/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijdjd3ZscWs0czdiNDMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.qzXGPFBw3uHk3FUoEv4ay9Nabz3IB9di_ezXN8VVbDU/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijdjd3ZscWs0czdiNDMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.qzXGPFBw3uHk3FUoEv4ay9Nabz3IB9di_ezXN8VVbDU/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InZidzhyZHYyaDN4cTMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.9o2gbJsm0iOBGDBCCJTqyuPhcG6G05cL6lAYUI-RjUk/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InZidzhyZHYyaDN4cTMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.9o2gbJsm0iOBGDBCCJTqyuPhcG6G05cL6lAYUI-RjUk/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im80YnFtMDlvNmUzZS1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.rCkDQ98S40Ps88513gky3ueee0CEqRlhM8KnKoi0QVs/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im80YnFtMDlvNmUzZS1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.rCkDQ98S40Ps88513gky3ueee0CEqRlhM8KnKoi0QVs/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImE0bWFzcHBtbW1oMTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.LcIEGEBVbG5lj2FHqIDlG-qH93M4dfxVXV8sO1l48QU/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImE0bWFzcHBtbW1oMTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.LcIEGEBVbG5lj2FHqIDlG-qH93M4dfxVXV8sO1l48QU/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjU5NDZzaGZyZDR6eTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.3YRcCFu7typhA_P4x5NrH5XNbopt1A6OmtgSajl2yII/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjU5NDZzaGZyZDR6eTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.3YRcCFu7typhA_P4x5NrH5XNbopt1A6OmtgSajl2yII/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InYwc250ZHB5NzFlNDEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.7qiyIgnUBPkUowtFqleTyWD8E_xIVD6vWguKqkbVKCI/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InYwc250ZHB5NzFlNDEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.7qiyIgnUBPkUowtFqleTyWD8E_xIVD6vWguKqkbVKCI/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IndkNW90eWtlNHplZjMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.MZcQq8UroF_eJdKR0OtT1CPmg0ES3vGj51Ca5Kd95fE/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IndkNW90eWtlNHplZjMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.MZcQq8UroF_eJdKR0OtT1CPmg0ES3vGj51Ca5Kd95fE/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjBiZGI0MzBkczQ0NTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.5pxwqREoyr0vBmFvM29ZoxIpMj64xPSbl8K3h7pEqUs/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjBiZGI0MzBkczQ0NTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.5pxwqREoyr0vBmFvM29ZoxIpMj64xPSbl8K3h7pEqUs/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InhoMnBxNWY3OGxoZjItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.UkYyqKR-8k13pAyHDCkZ5Cl5rNuRFB-5a19x5gq-sEE/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InhoMnBxNWY3OGxoZjItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.UkYyqKR-8k13pAyHDCkZ5Cl5rNuRFB-5a19x5gq-sEE/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            }
+          ],
+          "totalPossibleImages": 15,
+          "isExclusiveOffer": false,
+          "isPrivateOwner": false,
+          "isPromoted": true,
+          "extendedAdvertiserType": null,
+          "source": "urn:site:local",
+          "agency": {
+            "id": 5645140,
+            "name": "Liberto Estate",
+            "slug": "liberto-estate-ID5645140",
+            "imageUrl": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjRkZnhicjlyemMxYTMtQVBMIn0.4nSeoF5BbyUbvlfmmP9bMziEroYkkgXxPrFNWYg8P6I/image;s=800x600;q=90",
+            "type": "AGENCY",
+            "brandingVisible": true,
+            "highlightedAds": false,
+            "enhancedBrandingFeatures": [
+              "ENHANCED_BRANDING_SELLER_TYPE",
+              "ENHANCED_BRANDING_LOGO_DISPLAY",
+              "ENHANCED_BRANDING_COMPANY_NAME"
+            ],
+            "__typename": "AgencyListingDetails"
+          },
+          "openDays": "",
+          "totalPrice": {
+            "value": 1429000.0,
+            "currency": "PLN",
+            "__typename": "Money"
+          },
+          "rentPrice": {
+            "value": 650,
+            "currency": "PLN",
+            "__typename": "Money"
+          },
+          "priceFromPerSquareMeter": null,
+          "pricePerSquareMeter": {
+            "value": 32558.67,
+            "currency": "PLN",
+            "__typename": "Money"
+          },
+          "areaInSquareMeters": 43.89,
+          "terrainAreaInSquareMeters": null,
+          "roomsNumber": "TWO",
+          "hidePrice": false,
+          "floorNumber": "FIRST",
+          "investmentState": null,
+          "investmentUnitsAreaInSquareMeters": null,
+          "peoplePerRoom": null,
+          "dateCreated": "2026-10-16 09:39:41",
+          "createdAtFirst": "2026-10-05T16:45:04Z",
+          "investmentUnitsNumber": null,
+          "investmentUnitsRoomsNumber": null,
+          "investmentUnitsFloorsRange": null,
+          "investmentEstimatedDelivery": null,
+          "pushedUpAt": "2026-10-16T09:39:41+02:00",
+          "specialOffer": null,
+          "shortDescription": "Eleganckie, dwupokojowe, dwustronne, jasne mieszkanie na pierwszym piętrze w odrestaurowanej kamienicy przy ul. Wilcza 5.Mieszkanie po kapitalnym remoncie, wykonanym na podstawie indywidualnego projek...",
+          "organisationAssignedMember": null,
+          "advertOwner": {
+            "name": "Ewelina Lec",
+            "imageUrl": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im0yamdlcGowOTA5ZjMtQVBMIn0.6ahR6tTOvIj4pjZ-9E-TOZ1mLyBDK9hx7OUdy11c6Ws/image;s=97x97;q=100",
+            "contacts": [],
+            "__typename": "LegacyAdvertOwner"
+          },
+          "tags": [
+            {
+              "value": "SECURE_BUILDING",
+              "weight": 10,
+              "__typename": "AdvertListItemTag"
+            }
+          ],
+          "__typename": "AdvertListItem"
+        },
+        {
+          "id": 68532031,
+          "title": "4-pokojowy apartament po remoncie | ul. Poznańska 5 | Śródmieście",
+          "slug": "4-pokojowy-apartament-po-remoncie-ul-poznanska-5-srodmiescie-ID4Dyjl",
+          "estate": "FLAT",
+          "developmentId": 0,
+          "developmentTitle": "",
+          "developmentUrl": "",
+          "transaction": "SELL",
+          "location": {
+            "mapDetails": {
+              "radius": 0,
+              "__typename": "MapDetails",
+              "zoom": 14
+            },
+            "address": {
+              "street": {
+                "name": "Poznańska 5",
+                "number": "",
+                "__typename": "Street"
+              },
+              "city": {
+                "name": "Warszawa",
+                "__typename": "City"
+              },
+              "province": {
+                "name": "mazowieckie",
+                "__typename": "Province"
+              },
+              "__typename": "Address"
+            },
+            "reverseGeocoding": {
+              "locations": [
+                {
+                  "id": "mazowieckie",
+                  "name": "mazowieckie",
+                  "locationLevel": "voivodeship",
+                  "fullName": "mazowieckie",
+                  "__typename": "BasicLocationObject"
+                },
+                {
+                  "id": "mazowieckie/warszawa/warszawa/warszawa",
+                  "name": "Warszawa",
+                  "locationLevel": "city_or_village",
+                  "fullName": "Warszawa, mazowieckie",
+                  "__typename": "BasicLocationObject"
+                },
+                {
+                  "id": "mazowieckie/warszawa/warszawa/warszawa/srodmiescie",
+                  "name": "Śródmieście",
+                  "locationLevel": "district",
+                  "fullName": "Śródmieście, Warszawa, mazowieckie",
+                  "__typename": "BasicLocationObject"
+                },
+                {
+                  "id": "mazowieckie/warszawa/warszawa/warszawa/srodmiescie/srodmiescie-polnocne",
+                  "name": "Śródmieście Północne",
+                  "locationLevel": "residential",
+                  "fullName": "Śródmieście Północne, Śródmieście, Warszawa, mazowieckie",
+                  "__typename": "BasicLocationObject"
+                }
+              ],
+              "__typename": "ReverseGeocoding"
+            },
+            "__typename": "LocationDetails",
+            "coordinates": {
+              "latitude": 52.23313,
+              "longitude": 21.019,
+              "__typename": "Coordinates"
+            }
+          },
+          "images": [
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImY3ODFkMmtodDJ3dC1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.dT9aL2C70QOZq6Rz6t9174heC2GyU_5rAyeQUwCqH3U/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImY3ODFkMmtodDJ3dC1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.dT9aL2C70QOZq6Rz6t9174heC2GyU_5rAyeQUwCqH3U/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imd5YnJnems2cG5vZzMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.aj1lcZeslWeNPR5KjEHQNEzIaXO-y6f2G_0ozUcEVhI/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imd5YnJnems2cG5vZzMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.aj1lcZeslWeNPR5KjEHQNEzIaXO-y6f2G_0ozUcEVhI/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijk4N3IxbWticjQ5ai1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.ay5_Jh7bPg0AuSKbLxw1nbDuCZXRsZFFu8xwHSuNAfk/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijk4N3IxbWticjQ5ai1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.ay5_Jh7bPg0AuSKbLxw1nbDuCZXRsZFFu8xwHSuNAfk/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InI5cGx1encyNmJ3bjEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Z7RMnSAUOjjO5bKfGUFyE8TqbOdfnrRHMcOC9FM2pXY/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InI5cGx1encyNmJ3bjEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Z7RMnSAUOjjO5bKfGUFyE8TqbOdfnrRHMcOC9FM2pXY/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjJobTBzd21rNzJxdTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.GfCh888lDDFxP-ICHvagm1_10DY960oj-LNsP67ZNx8/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjJobTBzd21rNzJxdTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.GfCh888lDDFxP-ICHvagm1_10DY960oj-LNsP67ZNx8/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InhvNjExenYxMnp4aTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.fSgGBxH2e4eUq-e912SCQaOmuPkVLawbccs0D1P9y1o/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InhvNjExenYxMnp4aTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.fSgGBxH2e4eUq-e912SCQaOmuPkVLawbccs0D1P9y1o/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imx1YnN0ejBxZTNpNDItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.uiLDFrwNYZxtvINxNGe-aJLRrGuLk2XI96tSwxQivXE/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imx1YnN0ejBxZTNpNDItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.uiLDFrwNYZxtvINxNGe-aJLRrGuLk2XI96tSwxQivXE/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImY0eThzMTV1aHkwczItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.VSivb1k_dMw3qeWr9MiG29MfH3ig22Tl7sLy_OuVwk4/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImY0eThzMTV1aHkwczItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.VSivb1k_dMw3qeWr9MiG29MfH3ig22Tl7sLy_OuVwk4/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inllbm0zc3ZxaXJyNi1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.JAvzIvMbaTwISehCziwE9LqeLJVWTW7JTgbuILYIDsE/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inllbm0zc3ZxaXJyNi1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.JAvzIvMbaTwISehCziwE9LqeLJVWTW7JTgbuILYIDsE/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InFjbGJhYjF3ZjUwcTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.D1sNUo9S20aZTcrNnu4pg4-crukmwaFr1t9Go9m0oWw/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InFjbGJhYjF3ZjUwcTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.D1sNUo9S20aZTcrNnu4pg4-crukmwaFr1t9Go9m0oWw/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFzemFkZzhvd3ZhZi1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.7lHPlwNPEDH56Mt-UaOk9z9TNxe6llMnBrxWowqa87o/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFzemFkZzhvd3ZhZi1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.7lHPlwNPEDH56Mt-UaOk9z9TNxe6llMnBrxWowqa87o/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            },
+            {
+              "medium": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImZrbGVyNHNtazRmZjMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.E2ymTk-S9MyWtQhFgQTL7oLAv_q8Kf6Ma1SNOyPZa6k/image;s=655x491;q=80",
+              "large": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImZrbGVyNHNtazRmZjMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.E2ymTk-S9MyWtQhFgQTL7oLAv_q8Kf6Ma1SNOyPZa6k/image;s=1280x1024;q=80",
+              "__typename": "AdImage"
+            }
+          ],
+          "totalPossibleImages": 12,
+          "isExclusiveOffer": false,
+          "isPrivateOwner": true,
+          "isPromoted": true,
+          "extendedAdvertiserType": "private_person",
+          "source": "urn:site:local",
+          "agency": null,
+          "openDays": "",
+          "totalPrice": {
+            "value": 2300000.0,
+            "currency": "PLN",
+            "__typename": "Money"
+          },
+          "rentPrice": {
+            "value": 1150,
+            "currency": "PLN",
+            "__typename": "Money"
+          },
+          "priceFromPerSquareMeter": null,
+          "pricePerSquareMeter": {
+            "value": 29299.36,
+            "currency": "PLN",
+            "__typename": "Money"
+          },
+          "areaInSquareMeters": 78.5,
+          "terrainAreaInSquareMeters": null,
+          "roomsNumber": "FOUR",
+          "hidePrice": false,
+          "floorNumber": "FIRST",
+          "investmentState": null,
+          "investmentUnitsAreaInSquareMeters": null,
+          "peoplePerRoom": null,
+          "dateCreated": "2026-10-15 17:56:07",
+          "createdAtFirst": "2026-10-15T17:18:35Z",
+          "investmentUnitsNumber": null,
+          "investmentUnitsRoomsNumber": null,
+          "investmentUnitsFloorsRange": null,
+          "investmentEstimatedDelivery": null,
+          "pushedUpAt": null,
+          "specialOffer": null,
+          "shortDescription": "4-pokojowy apartament po generalnym remoncie | ul. Poznańska 5 | ŚródmieścieSprzedam bezpośrednio wyjątkowy, dwustronny, 4-pokojowy apartament o powierzchni 78,5 m², po generalnym remoncie, położony n...",
+          "organisationAssignedMember": null,
+          "advertOwner": {
+            "name": "Anna",
+            "imageUrl": "",
+            "contacts": [],
+            "__typename": "LegacyAdvertOwner"
+          },
+          "tags": [
+            {
+              "value": "BALCONY",
+              "weight": 35,
+              "__typename": "AdvertListItemTag"
+            },
+            {
+              "value": "BASEMENT",
+              "weight": 25,
+              "__typename": "AdvertListItemTag"
+            }
+          ],
+          "__typename": "AdvertListItem"
+        }
+      ]
+    }
+  }
+}

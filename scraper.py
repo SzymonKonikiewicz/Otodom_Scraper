@@ -4,48 +4,67 @@ import time
 import random
 import os
 
+file_counter = 1
+
 def intercept_response(response):
-    if "api/query" in response.url:
+    global file_counter
+    
+    if response.request.resource_type in ["fetch", "xhr"]:
         try:
             data = response.json()
+            data_str = str(data)
             
-            if not data.get("errors") and data.get("data"):
+            if "areaInSquareMeters" in data_str and "totalPrice" in data_str:
+                file_name = f"raw_data_{file_counter}.json"
                 
-                if "totalPrice" in str(data):
+                with open(file_name, "w", encoding="utf-8") as f:
+                    json.dump(data, f, ensure_ascii=False, indent=2)
                     
-                    with open("surowe_dane.json", "w", encoding="utf-8") as f:
-                        json.dump(data, f, ensure_ascii=False, indent=2)
-                        
-                    print(f"✅ JSON saved")
+                short_url = response.url.split('?')[0][-40:]
+                print(f"✅Captured real estate data: ...{short_url} -> {file_name}")
+                
+                file_counter += 1
         except Exception:
             pass
 
 def run_scraper():
-    print("Browser launch")
-    
+    print("Browser launch.")
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False) 
         page = browser.new_page()
         page.on("response", intercept_response)
         
-        base_search_url = "https://www.otodom.pl/pl/wyniki/sprzedaz/mieszkanie/mazowieckie/warszawa/warszawa/warszawa"
+        search_url = "https://www.otodom.pl/pl/wyniki/sprzedaz/mieszkanie/mazowieckie/warszawa/warszawa/warszawa"
         
-        for page_num in range(1, 6): 
+        print(f"Loading page 1")
+        page.goto(search_url)
+        
+        try:
+            page.locator('#onetrust-accept-btn-handler').click(timeout=3000)
+            print("🍪Closed cookies banner.")
+        except:
+            pass
 
-            if page_num == 1:
-                current_url = base_search_url
-            else:
-                current_url = f"{base_search_url}?page={page_num}"
+        for target_page in range(2, 6):  
+            print("Scrolling...")
+            for _ in range(7):
+                page.keyboard.press("PageDown")
+                time.sleep(0.6)
+            next_page_link = page.locator(f"a[href*='page={target_page}']").first
+            
+            try:
+                next_page_link.scroll_into_view_if_needed()
+                time.sleep(1) 
                 
-            print(f"Entering page number {page_num}")
+                next_page_link.click()
+                print(f"Clicked page {target_page}")
+                time.sleep(random.uniform(4, 6))
+                
+            except Exception as e:
+                print(f"Failed to click page {target_page}. Details: {e}")
+                break
             
-            page.goto(current_url, wait_until="networkidle")
-            
-            delay = random.uniform(3, 8)
-            print(f"{delay:.1f} delay")
-            time.sleep(delay)
-            
-        print("Task finished. Closing the browser.")
+        print("\n Task finished. Closing the browser.")
         browser.close()
 
 if __name__ == "__main__":
