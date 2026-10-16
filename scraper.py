@@ -1,40 +1,51 @@
 from playwright.sync_api import sync_playwright
 import json
+import time
+import random
+import os
 
 def intercept_response(response):
     if "api/query" in response.url:
         try:
             data = response.json()
             
-            # 1. Ignorujemy puste odpowiedzi i błędy typu PersistedQueryNotFound
             if not data.get("errors") and data.get("data"):
                 
-                # 2. Upewniamy się, że to JSON z ogłoszeniami (szukamy ceny)
-                # Zamieniamy na stringa, żeby szybko przeszukać całą strukturę
                 if "totalPrice" in str(data):
                     
-                    # 3. Zapisujemy właściwy plik
                     with open("surowe_dane.json", "w", encoding="utf-8") as f:
                         json.dump(data, f, ensure_ascii=False, indent=2)
                         
-                    print(f"✅ BINGO! Złapano i zapisano właściwy plik JSON z ofertami z URL: {response.url[:60]}...")
+                    print(f"✅ JSON saved")
         except Exception:
-            pass # Ignorujemy ruch, który nie jest poprawnym JSON-em
+            pass
 
 def run_scraper():
+    print("Browser launch")
+    
     with sync_playwright() as p:
-        # headless=False otwiera fizyczne okno przeglądarki, żebyś widział co się dzieje
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=False) 
         page = browser.new_page()
-        
-        # Podpinamy funkcję nasłuchującą
         page.on("response", intercept_response)
         
-        print("🚀 Uruchamianie przeglądarki i ładowanie strony...")
-        # Docelowy link do wyszukiwarki (Warszawa, mieszkania na sprzedaż)
-        search_url = "https://www.otodom.pl/pl/wyniki/sprzedaz/mieszkanie/mazowieckie/warszawa/warszawa/warszawa"
+        base_search_url = "https://www.otodom.pl/pl/wyniki/sprzedaz/mieszkanie/mazowieckie/warszawa/warszawa/warszawa"
         
-        page.goto(search_url, wait_until="networkidle")
+        for page_num in range(1, 6): 
+
+            if page_num == 1:
+                current_url = base_search_url
+            else:
+                current_url = f"{base_search_url}?page={page_num}"
+                
+            print(f"Entering page number {page_num}")
+            
+            page.goto(current_url, wait_until="networkidle")
+            
+            delay = random.uniform(3, 8)
+            print(f"{delay:.1f} delay")
+            time.sleep(delay)
+            
+        print("Task finished. Closing the browser.")
         browser.close()
 
 if __name__ == "__main__":
