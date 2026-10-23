@@ -1,0 +1,4 @@
+playwright
+pandas
+SQLAlchemy
+psycopg2-binary
