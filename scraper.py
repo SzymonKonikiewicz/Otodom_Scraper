@@ -30,7 +30,7 @@ def intercept_response(response):
 def run_scraper():
     print("Browser launch.")
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False) 
+        browser = p.chromium.launch(headless=True) 
         page = browser.new_page()
         page.on("response", intercept_response)
         

@@ -1,0 +1,30 @@
+# Środowiska wirtualne Pythona
+venv/
+.venv/
+ENV/
+env/
+
+# Pamięć podręczna Pythona
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Kontrola wersji
+.git/
+.gitignore
+
+# Pliki danych 
+clean_properties_database.csv
+parsed_data.csv
+
+# Pliki środowiskowe i konfiguracje lokalne
+.env
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Dokumentacja i pliki robocze
+README.md
+*.log
