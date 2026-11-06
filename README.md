@@ -1,11 +1,5 @@
-## Env setup
-### Conda
+## Pipeline start
+### Docker
 ```
-conda create -n otodom_scraper python=3.11 -y
-conda activate otodom_scraper
-```
-### Libraries
-```
-pip install -r requirements.txt
-playwright install chromium
+docker compose up --build
 ```
