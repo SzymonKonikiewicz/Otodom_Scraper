@@ -1,0 +1,32 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: ztm_postgres_db
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: ztm_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  etl:
+    build: .
+    container_name: ztm_etl_pipeline
+    restart: "no"
+    depends_on:
+      - db
+    environment:
+      - DB_USER=admin
+      - DB_PASSWORD=admin
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_NAME=ztm_db
+      - ZTM_API_KEY=${ZTM_API_KEY}
+    volumes:
+      - .:/app
+
+volumes:
+  pgdata:

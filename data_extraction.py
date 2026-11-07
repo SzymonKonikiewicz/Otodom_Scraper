@@ -1,24 +1,52 @@
+import os
 import requests
+import pandas as pd
+from dotenv import load_dotenv
 
-## python env name -> etl_env
-
-
-API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJYWmlSemFKTmhKMy1GZ3RDSkdtT1FxQnAzR0pZME44b2N1b3I5MGZOVzQwIiwiaWF0IjoxNzk0MDY1OTc3fQ.XKmZWGZLKAGlkMKS_mQBCcgF6CFcYBtjrp2JnA8lFDI"
+# Load api key from .env
+load_dotenv()
+API_KEY = os.getenv("ZTM_API_KEY")
 URL = "https://dane.um.warszawa.pl/api/action/get_bin_utrudnienia_drogowe"
 
-# ZTM Warszawa najczęściej przyjmuje token jako parametr 'apikey' w URL lub nagłówku
-headers = {
-    "Authorization": f"{API_KEY}" # albo po prostu sam klucz, zależnie od dokumentacji endpointu
-}
 
-# Niektóre endpointy ZTM wolą klucz wprost w adresie URL, np.:
-# URL_Z_KLUCZEM = f"{URL}?apikey={API_KEY}"
+def data_extraction():
+    
+    headers = {
+        "Authorization": f"{API_KEY}"
+    }
+    
+    try:
+        response = requests.post(URL, headers=headers)
+        
+        if response.status_code == 200:
+            data = response.json()
+            if isinstance(data, list):
+                print(f"Records downloaded -> {len(data)}")
+                return data
+            if isinstance(data, dict):
+                records = data.get("result", [])
+                print(f"Records downloaded -> {len(records)}")
+                return records
+        
+        else:
+            print("err")
+            return []
+            
+    except Exception as e:
+        print(f"errrr {e}")
+        return []
 
-response = requests.post(URL, headers=headers)
+def save_to_csv(records, filename="ztm_utrudnienia_raw_data.csv"):
+    if not records:
+        return
 
-if response.status_code == 200:
-    data = response.json()
-    print("Sukces! Pobrano dane:")
-    print(data)
-else:
-    print(f"Błąd: {response.status_code}", response.text)
+    df = pd.DataFrame(records)
+    
+    df.to_csv(filename, index=False, encoding="utf-8-sig")
+    print(f"Data saved to -> {filename}")
+
+if __name__ == "__main__":
+    raw_data = data_extraction()
+    
+    if raw_data:
+        save_to_csv(raw_data)
